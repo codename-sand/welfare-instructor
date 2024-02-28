@@ -1,0 +1,9 @@
+@charset "utf-8";
+.top_img{background-image:url(../img/association_img.png)}
+.page_title{background-image:url(../img/photo_title.png)}
+.slide{overflow:hidden;position:relative}
+.slideBanner li{float:left;width:1200px;height:700px;background-size:cover;background-position:center center}
+.slide .pager{width:120px;height:60px;background-color:rgba(0,0,0,0.7);position:absolute;top:0;right:0}
+.slide .pager a{float:left}
+.slide .pager p{float:left;width:60px;line-height:60px;color:#fff;text-align:center;letter-spacing:.5px}
+.slide .pager p .now{font-weight:400}

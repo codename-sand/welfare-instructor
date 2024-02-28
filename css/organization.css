@@ -1,0 +1,11 @@
+@charset "utf-8";
+.top_img{background-image:url(../img/association_img.png)}
+.page_title{background-image:url(../img/organization_title.png)}
+.organization{background:url(../img/organization_line.png) no-repeat center 60px}
+.organization h6.president{width:300px;line-height:60px;color:#fff;font-weight:500;text-align:center;margin:0 auto 40px}
+.organization h6.secretary{width:220px;height:50px;line-height:46px;border:2px solid #202020;font-weight:500;text-align:center;float:right;box-sizing:border-box;margin-bottom:80px}
+.table_area{clear:both;width:1020px;margin:0 auto}
+.table_area table{width:180px;float:left;border-right:1px solid #dbdbdb;border-left:1px solid #dbdbdb;margin-left:30px}
+.table_area table:first-child{margin-left:0}
+.table_area table tr th{font-size:18px;color:#202020;font-weight:600;text-align:center;background:#f8f8f8;width:180px;height:60px;border-top:2px solid #393939;border-bottom:1px solid #dbdbdb}
+.table_area table tr td{color:#7f7f7f;text-align:center;height:45px;border-bottom:1px solid #dbdbdb}

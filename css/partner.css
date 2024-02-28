@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+.top_img{background-image:url(../img/community_img.png)}
+.page_title{background-image:url(../img/cooperate_title.png)}
+h3.category_sub_title{text-align:center;margin-bottom:8px}
+p.category_subTitle{color:#7f7f7f;text-align:center;margin-bottom:40px}
+.grid_contents{margin-bottom:100px}
+.grid_contents .grid{background-image:url(../img/grid.png);width:500px;height:180px;margin-top:-5px;float:left}
+.grid_contents .grid img{display:block;margin:0 auto;position:relative;top:50%;margin-top:-34px}
+.grid_contents .grid_textarea{width:640px;float:left;margin-left:60px}
+.grid_contents .grid_textarea .contents_title{font-size:28px;font-weight:300;margin-bottom:20px}
+.grid_contents .grid_textarea .contents_title .bold{font-weight:500}
+.grid_contents .grid_textarea .contents_sub{font-weight:300;font-size:20px}
+.grid_contents .grid_textarea .contents_sub .skyblue{font-weight:400}
+.platform{margin-bottom:100px;box-sizing:border-box}
+.platform .thum_ex{width:380px;height:330px;box-sizing:border-box;margin-right:30px;text-align:center;float:left;margin-bottom:30px}
+.platform .thum_ex:nth-child(5){margin-right:0}
+.platform .thum_ex .title{font-weight:400;font-size:24px;margin-top:15px;margin-bottom:14px}
+.platform .text{padding-bottom:60px;border-bottom:1px solid #dbdbdb;text-align:center}
+.platform .line_content{float:left;margin-bottom:20px;height:200px}
+.platform .line_content:nth-child(5){margin-bottom:100px}
+.platform .line_content img{width:380px;height:200px;border:2px solid #1c9bb7;float:left;box-sizing:border-box}
+.platform .line_content .text{width:820px;height:200px;box-sizing:border-box;float:left;padding-left:20px;padding-top:33px;text-align:left!important}
+.platform .line_content .text .title{font-size:24px;font-weight:400;margin-bottom:10px}
+.platform .line_content .text h6.black{font-weight:300}
+.insert .six_contents{width:1400px;height:320px;margin-bottom:100px}
+.insert .contents{width:170px;height:345px;text-align:center;margin-right:36px;float:left;box-sizing:border-box}
+.insert .contents img{width:168px;height:126px;box-sizing:border-box}
+.insert .contents h6.green{font-weight:400;margin-top:10px;margin-bottom:8px}
+.insert .contents p.black{font-weight:300}
+.logo{padding-top:60px;padding-bottom:90px;margin-bottom:100px}
+.logo .center ul{width:1300px;margin:0 auto;display:block;box-sizing:border-box}
+.logo .center ul li{float:left;margin-right:10px;margin-bottom:10px;width:190px;height:100px;box-sizing:border-box}
+.logo .center ul li img{border:1px solid #a2a2a2}
+.apply .apply_step{width:970px;margin:0 auto 60px}
+.apply .notice_box{width:380px;height:80px;box-sizing:border-box;text-align:center;line-height:80px;margin:0 auto;margin-top:-10px;margin-bottom:40px;font-weight:300}
+.apply .notice_txt{text-align:center;margin-top:-20px;margin-bottom:40px}
+.apply .apply_step article{width:170px;height:170px;box-sizing:border-box;background-color:rgba(26,71,159,0.1);border-radius:50%;border-style:dashed!important;float:left;text-align:center}
+.apply .apply_step h6{margin-top:30px;margin-bottom:10px}
+.apply .apply_step h5{color:#202020}
+.apply .apply_step .arrow{width:30px;height:170px;background:url(../img/step_arrow_blue.png) no-repeat center center;float:left}
+.apply .input_area .area{border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb;padding:15px 0;margin-top:-1px}
+.apply .input_area .area label{float:left;width:200px;line-height:45px;font-weight:500;color:#202020}
+.apply .input_area .area input[type="text"]{float:left;width:650px;height:45px;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;color:#393939}
+.apply .input_area .address .address_code{width:200px!important}
+.apply .input_area .address .bg_navy{width:110px;height:45px;margin-left:10px;font-family:inherit;color:#fff;letter-spacing:-1px;font-size:16px;cursor:pointer}
+.apply .input_area .address .address_box{clear:both;margin-left:200px;margin-top:10px}
+.apply .input_area .tell select{width:130px;height:45px;float:left;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../img/select_bg.png) no-repeat right center;cursor:pointer}
+select::-ms-expand{display:none}
+.apply .input_area .tell .bar{float:left;width:20px;line-height:45px;color:#8e8e8e;text-align:center}
+.apply .input_area .tell .tell_box{width:130px!important}
+.apply .input_area .mail .mail_box{width:130px!important}
+.apply .input_area .mail .at{float:left;width:25px;line-height:45px;color:#8e8e8e;text-align:center;font-size:15px}
+.apply .input_area .mail select{width:130px;height:45px;float:left;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../img/select_bg.png) no-repeat right center;cursor:pointer;margin-left:15px}
+select::-ms-expand{display:none}
+.apply .input_area .agree{height:130px}
+.apply .input_area .agree p.navy{float:left;width:200px;line-height:130px;font-weight:500}
+.apply .input_area .agree p.small{float:left;font-size:15px;color:#7f7f7f}
+.apply .input_area .apply_btn{color:#fff;font-size:20px;font-family:inherit;letter-spacing:-1px;width:300px;height:70px;cursor:pointer;display:block;margin:40px auto 0}
+.apply .input_area .insert_catogory select,.apply .input_area .insert_menu select{width:325px;height:45px;float:left;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../img/select_bg.png) no-repeat right center;cursor:pointer}
+.apply .input_area .text_box{width:650px;height:150px;float:left;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-top:10px;padding-left:15px;letter-spacing:-1px;color:#393939;resize:none}
+.apply .input_area .text textarea::-webkit-input-placeholder{color:#a2a2a2}
+.apply .input_area .text textarea:-ms-input-placeholder{color:#a2a2a2}
+.apply .input_area .text textarea::-moz-placeholder{color:#a2a2a2}

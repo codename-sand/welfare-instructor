@@ -1,0 +1,12 @@
+@charset "utf-8";
+.top_img{background-image:url(../img/association_img.png)}
+.page_title{background-image:url(../img/greeting_title.png)}
+section{background:url(../img/greeting_bg.png) no-repeat right bottom}
+section h2{font-size:38px;color:#202020;font-weight:600;line-height:48px;padding-left:40px;margin-bottom:40px}
+section h2 span{font-weight:400}
+section h5{padding-left:40px;color:#393939;font-weight:300;margin-bottom:40px}
+section h5 span{font-weight:500}
+section p{color:#393939;padding-left:40px;width:625px;margin-bottom:10px}
+section p span{font-weight:500}
+section h6{padding-left:40px}
+section h6 img{margin-left:10px}

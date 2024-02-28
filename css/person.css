@@ -1,0 +1,48 @@
+@charset "utf-8";
+.top_img{background-image:url(../img/consulting_img.png)}
+.page_title{background-image:url(../img/person_title.png)}
+h3.category_sub_title{text-align:center;margin-bottom:8px}
+p.category_subTitle{color:#7f7f7f;text-align:center;margin-bottom:40px}
+section hr{border-width:1px 0 0;border-bottom:1px solid #dbdbdb;margin:90px auto 60px;width:1200px}
+.intro .circle{width:460px;margin:0 auto 60px}
+.intro .circle .border_skyblue{width:200px;height:200px;border-radius:50%;text-align:center;background-color:rgba(33,177,206,0.1);border-style:dashed!important;float:left;box-sizing:border-box}
+.intro .circle .border_skyblue:first-child{margin-right:60px}
+.intro .circle .border_skyblue h6{line-height:18px;margin-top:55px}
+.intro .circle .border_skyblue h3{line-height:32px;margin:7px 0}
+.intro .circle .border_skyblue h4{line-height:22px;font-weight:500}
+.intro .count{width:810px;margin:0 auto}
+.intro .count article{width:270px;float:left;text-align:center}
+.intro .count article h5{color:#202020}
+.intro .count article h5 span{font-size:52px;font-weight:200}
+.intro .count article p{color:#393939;line-height:20px}
+.intro .count article p span{color:#7f7f7f}
+.intro .count .border{position:relative}
+.intro .count .border:before{width:1px;height:50px;background-color:#dbdbdb;position:absolute;left:0;top:50%;margin-top:-25px;content:''}
+.intro .count .border:after{width:1px;height:50px;background-color:#dbdbdb;position:absolute;right:0;top:50%;margin-top:-25px;content:''}
+.want .circle{width:510px;margin:0 auto 60px}
+.want .circle .border_green{width:270px;height:70px;line-height:70px;border-radius:35px;text-align:center;background-color:rgba(133,174,40,0.1);border-style:dashed!important;float:left;box-sizing:border-box}
+.want .circle .border_green:first-child{margin-right:-30px;background-image:url(../img/green_plus.png);background-repeat:no-repeat;background-position:right center}
+.want .circle .border_green h5{color:#202020}
+.want .circle .border_green h5 span{font-weight:600}
+.want .four{width:1200px;margin:0 auto 80px}
+.want .four article{width:300px;float:left;text-align:center;box-sizing:border-box;border-left:1px solid #f1f1f5}
+.want .four article:first-child{border-left:0}
+.want .four article img{display:block;margin:0 auto 10px}
+.want .four article h5{color:#393939}
+.want h5.text{text-align:center;color:#393939;line-height:36px;margin-bottom:50px}
+.want h5.text span.green{font-weight:500}
+.want h5.text span.border{position:relative}
+.want h5.text span.border:after{width:100%;height:1px;background-color:#393939;position:absolute;left:0;bottom:0;content:''}
+.want h2.green{text-align:center;font-weight:300;font-size:36px;margin-bottom:50px}
+.want .box{height:150px;border:1px solid #202020;box-sizing:border-box;text-align:center}
+.want .box p{font-size:24px;color:#202020;line-height:40px;margin-top:33px}
+.want .box p strong.border{position:relative}
+.want .box p strong.border:after{width:100%;height:1px;background-color:#393939;position:absolute;left:0;bottom:0;content:''}
+.welfare .compare{width:960px;margin:0 auto}
+.welfare .compare article{width:450px;float:left}
+.welfare .compare article:first-child{margin-right:60px}
+.welfare .compare article h4{text-align:center;margin-bottom:20px}
+.welfare .compare article img{display:block;margin-bottom:15px}
+.welfare .compare article h6{padding:0 20px;box-sizing:border-box;font-weight:300;color:#393939;line-height:32px;letter-spacing:-2px}
+.welfare .compare article h6 strong{font-weight:400}
+.welfare .compare article h6.mg{margin-left:7px}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+.top_img{background-image:url(../img/ewelfare_img.png)}
+.page_title{background-image:url(../img/ewelfare_title.png);padding-top:80px}
+.link_tab{margin-bottom:0}
+.link_tab_fake{width:100%;height:50px;display:none}
+article .grid_contents .grid{background-image:url(../img/grid.png);width:500px;height:180px;margin-top:55px;float:left}
+article .grid_contents .grid img{display:block;margin:0 auto;position:relative;top:50%;margin-top:-34px}
+article .grid_contents .grid_textarea{width:640px;float:left;margin-left:60px}
+article .grid_contents .grid_textarea .contents_title{font-size:28px;font-weight:300;margin-bottom:20px}
+article .grid_contents .grid_textarea .contents_title .bold{font-weight:500}
+article .grid_contents .grid_textarea .contents_sub{font-weight:300;font-size:20px}
+article .grid_contents .grid_textarea .contents_sub .skyblue{font-weight:400}
+article .explain h3,article .knowhow h3,article .package h3,article .logo h3{font-weight:400;text-align:center}
+article .explain h3{padding-top:100px}
+article .explain .subtext,article .knowhow .subtext,article .package .subtext,article .logo .subtext{text-align:center;margin-top:8px;margin-bottom:40px}
+article .explain .ex_contents img{float:left;margin-right:50px}
+article .explain .ex_contents .ex_sub p{font-size:24px;font-weight:300;margin-top:30px;float:left;margin-bottom:45px;display:block;width:800px}
+article .explain .ex_contents .ex_sub p .title{display:block;margin-bottom:20px}
+article .explain .ex_contents .ex_sub p .blue{font-weight:400}
+article .explain .ex_contents .ex_sub .link_btn{float:left;display:block;width:800px;height:50px;margin-bottom:30px}
+article .explain .ex_contents .ex_sub .link_btn li{float:left;margin-right:10px;width:190px}
+article .explain .ex_contents .ex_sub .phone_img{float:left;margin-bottom:90px}
+article .explain .ex_contents .ex_sub .phone_img li{float:left;margin-right:20px;width:160px}
+article .knowhow{clear:both;padding-bottom:90px;padding-top:60px;box-sizing:border-box;margin-bottom:90px}
+article .knowhow .process{margin:0 auto;width:1115px}
+article .knowhow .process li{float:left;margin-right:35px}
+article .knowhow .process li:nth-child(2),article .knowhow .process li:nth-child(4){width:230px;height:160px;background:url(../img/green_arrow.png) no-repeat center}
+article .knowhow .process li:nth-child(2) .black,article .knowhow .process li:nth-child(4) .black{font-size:20px;font-weight:400;margin-bottom:48px;margin-top:28px;text-align:center}
+article .package{margin-bottom:90px}
+article .package .tab_btn{text-align:center;width:800px;margin:0 auto}
+article .package .tab_btn .tab_button{float:left;width:400px;height:80px;margin-bottom:40px;box-sizing:border-box;cursor:pointer}
+article .package .tab_btn .tab_button:nth-child(2){margin-left:-1px}
+article .package .tab_btn .tab_button .title{color:#21b1ce;font-size:20px;font-weight:400;margin-top:12px;margin-bottom:4px}
+article .package .tab_btn .tab_button .sub{color:#75c5d5;font-size:14px;font-weight:400}
+article .package .tab_btn .active{background-color:#21b1ce}
+article .package .tab_btn .active p{color:#fff!important}
+article .package .tab_cont{float:left;width:1250px;box-sizing:border-box}
+article .package .tab_cont .service{width:224px;height:300px;box-sizing:border-box;float:left;text-align:center;margin-right:20px;margin-bottom:20px}
+article .package .tab_cont .service .title{margin-top:10px;font-weight:400}
+article .package .tab_cont .service .sub{font-weight:300;height:70px}
+article .package .tab_cont .service .skyblue{margin-top:13px;font-weight:500}
+article .logo{padding-top:60px;padding-bottom:90px}
+article .logo .center ul{width:1300px;margin:0 auto;display:block;box-sizing:border-box}
+article .logo .center ul li{float:left;margin-right:10px;margin-bottom:10px;width:190px;height:100px;box-sizing:border-box}
+article .logo .center ul li img{border:1px solid #a2a2a2}
+footer{margin-top:0!important}

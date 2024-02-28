@@ -1,0 +1,21 @@
+@charset "utf-8";
+.top_img{background-image:url(../img/association_img.png)}
+.page_title{background-image:url(../img/location_title.png)}
+.location ul{text-align:center}
+.location ul li{display:inline-block;line-height:60px;font-size:15px;color:#393939;margin:0 20px}
+.location ul li.address{padding-left:30px;background:url(../img/address_icon.png) no-repeat left center}
+.location ul li.tell{padding-left:30px;background:url(../img/tell_icon.png) no-repeat left center}
+.location ul li.fax{padding-left:30px;background:url(../img/fax_icon.png) no-repeat left center}
+.location .map .wrap_controllers{display:none}
+table{width:100%;border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb}
+table tr th.blank{font-size:0;height:20px}
+table tr th{width:100px;text-align:left;color:#393939;padding-left:20px;height:35px}
+table tr.subway td p{color:#393939;line-height:20px;float:left;padding:0 20px;background:url(../img/subway_line.png) no-repeat left center}
+table tr.subway td p:first-child{background:none;padding-left:0}
+table tr.subway td p .number{display:inline-block;font-size:14px;width:20px;height:20px;box-sizing:border-box;border:1px solid #1eab2e;color:#1eab2e;line-height:18px;text-align:center;border-radius:50%;margin:0 7px}
+table tr.subway td p .yellow{border:1px solid #f7b922;color:#f7b922}
+table tr.subway td p .minute{color:#7f7f7f;margin-left:5px}
+table tr.subway td.search{width:160px}
+table tr.subway td.search a{display:block;width:120px;height:36px;box-sizing:border-box;line-height:34px;border:1px solid #202020;color:#202020;background:url(../img/search_bg.png) no-repeat 25px center;padding-left:45px}
+table tr.bus th{vertical-align:top;line-height:32px}
+table tr.bus p{line-height:32px;color:#393939}

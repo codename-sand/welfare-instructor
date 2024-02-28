@@ -1,0 +1,12 @@
+@charset "utf-8";
+.page_title{margin-top:100px;background-image:url(../img/find_title.png)}
+.tab_btn{width:800px;margin:0 auto}
+.tab_btn .tab_button{float:left;width:400px;height:60px;margin-bottom:40px;box-sizing:border-box;cursor:pointer;text-align:center;color:#21b1ce;font-size:20px;font-weight:300;line-height:58px}
+.tab_btn .pw_btn{margin-left:-1px}
+.tab_btn .active{background-color:#21b1ce;color:#fff!important}
+.find_area{box-sizing:border-box;padding:60px 0}
+.find_area .text_box{width:500px;height:50px;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:15px;padding-left:15px;letter-spacing:-1px;color:#393939;display:block;margin:0 auto 10px}
+.find_area .mail_box{margin-bottom:40px}
+.find_area .find_btn{width:500px;height:55px;display:block;margin:0 auto 50px;font-family:inherit;font-size:16px;font-weight:500;color:#fff}
+.find_area hr{border:none;border-top:1px solid #e0e0e0;width:640px;margin:0 auto 30px}
+.ment{font-size:15px;color:#393939;text-align:center}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+*{margin:0;padding:0;border:0;outline:0}
+html,body{font-family:'Noto Sans KR',sans-serif;letter-spacing:-1px;min-width:1200px}
+ul,ol,dl{list-style:none}
+a{text-decoration:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table,table tr,table td{border:0;border-collapse:collapse;border-spacing:0}
+.blind,legend,caption{display:block;overflow:hidden;position:absolute;top:0;left:-1000em}
+.cf:after{clear:both;display:block;content:""}
+.center{width:1200px;margin:0 auto}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+h2{font-size:48px;font-weight:400}
+h3{font-size:32px;font-weight:400}
+h4{font-size:22px;font-weight:400}
+h5{font-size:20px;font-weight:400}
+h6{font-size:18px;font-weight:400}
+.white{color:#fff!important}
+.black{color:#202020!important}
+.deep_gray{color:#393939!important}
+.gray{color:#7f7f7f!important}
+.light_gray{color:#a2a2a2!important}
+.skyblue{color:#21b1ce!important}
+.green{color:#71ae28!important}
+.navy{color:#1a479f!important}
+.blue{color:#1c9bb7!important}
+.bg_skyblue{background-color:#21b1ce!important}
+.bg_green{background-color:#71ae28!important}
+.bg_navy{background-color:#1a479f!important}
+.bg_blue{background-color:#1c9bb7!important}
+.bg_gray{background-color:#f8f8f8!important}
+.border_skyblue{border:1px solid #21b1ce!important}
+.border_green{border:1px solid #71ae28!important}
+.border_navy{border:1px solid #1a479f!important}
+.border_blue{border:1px solid #1c9bb7!important}
+.border_gray{border:1px solid #dbdbdb!important}
+input::-webkit-input-placeholder{color:#a2a2a2}
+input:-ms-input-placeholder{color:#a2a2a2}
+input::-moz-placeholder{color:#a2a2a2}
+textarea::-webkit-input-placeholder{color:#a2a2a2}
+textarea:-ms-input-placeholder{color:#a2a2a2}
+textarea::-moz-placeholder{color:#a2a2a2}
+.top_img{width:100%;height:200px;background-size:cover;background-repeat:no-repeat;background-position:center center;overflow:auto}
+.top_img .category_ko{text-align:center;color:#fff;text-shadow:0 0 2px #333;margin-top:65px;margin-bottom:5px}
+.top_img .category_en{text-align:center;color:#fff;text-shadow:0 0 2px #333}
+.link_tab{width:100%;height:50px;border-bottom:1px solid #ddd;box-sizing:border-box;text-align:center;margin-bottom:80px;background:#fff}
+.link_tab_fix{position:fixed;top:0;left:0;z-index:9999}
+.link_tab li{display:inline-block;margin-left:-5px;padding:0 40px;box-sizing:border-box;height:50px;line-height:50px}
+.link_tab li a{display:inline-block;color:#393939}
+.link_tab li.active{border-bottom:3px solid #21b1ce}
+.link_tab li.active a{color:#21b1ce}
+.page_title{font-size:44px;font-weight:500;color:#202020;text-align:center;padding-bottom:20px;background-repeat:no-repeat;background-position:center bottom;margin-bottom:20px}
+.title_line{display:block;margin:0 auto 60px}
+.header_top{height:80px;line-height:80px}
+.header_top h1{float:left}
+.header_top .gnb{float:right}
+.header_top .gnb li{float:left;margin-left:20px}
+.header_top .gnb li a{font-size:12px;color:#393939}
+header hr{border-width:1px 0 0;border-bottom:1px solid #ddd;width:100%}
+.menu_area{position:relative}
+header .main_menu > li{float:left}
+header .main_menu > li > a{display:block;width:200px;font-size:15px;color:#393939;line-height:50px;background:#fff}
+header .main_menu li.point a{font-weight:400}
+header .sub_area{position:absolute;width:100%;left:0;display:none}
+header .menu_area:hover .sub_area{display:block}
+header .sub_menu{float:left;padding:5px 0 10px}
+header .sub_menu li a{display:block;width:200px;font-size:15px;color:#393939;line-height:35px}
+header .sub_menu li a:hover{color:#21b1ce}
+footer{clear:both;width:100%;height:200px;margin-top:120px;background:#393939 url(../img/footer_logo.png) no-repeat right center}
+footer .footercontents .footer_link{margin-top:40px;height:20px;float:left;width:100%;margin-bottom:45px}
+footer .footercontents .footer_link li a,footer .footercontents .footer_call li a{color:#dbdbdb;font-size:14px}
+footer .footercontents .footer_link li,footer .footercontents .footer_call li{float:left;margin-right:15px;line-height:15px}
+footer .footercontents p{font-size:14px;margin-bottom:10px}
+footer .footercontents .footer_call{float:left;width:100%;margin-bottom:8px}
+footer .footercontents .sns{float:right;margin-top:-45px}
+footer .footercontents .sns li{float:left;margin-right:5px}
+footer .footercontents .sns li:nth-child(1){margin-right:15px;line-height:30px;font-weight:500}

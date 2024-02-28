@@ -1,0 +1,71 @@
+@charset "utf-8";
+.page_title{margin-top:100px;background-image:url(../img/join_title.png)}
+.agree_area{width:1000px;margin:0 auto}
+.agree_area .agree_title{color:#393939;padding-left:20px;background:url(../img/agree_line.png) no-repeat left center;font-weight:500;line-height:18px;margin-bottom:15px}
+.agree_area .agree_box{width:1000px;height:350px;box-sizing:border-box;overflow-y:scroll;margin-bottom:15px;padding:20px 25px;color:#7f7f7f;font-size:15px;line-height:24px}
+.agree_area .agree{margin-bottom:60px}
+.agree_area .agree label{float:right;font-size:15px;color:#393939;line-height:16px;cursor:pointer}
+.agree_area .check_wrap{width:16px;height:16px;position:relative;float:right;margin-right:5px}
+.agree_area input[type="checkbox"]{width:16px;height:16px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2;cursor:pointer}
+.agree_area .check_btn{width:16px;height:16px;background:url(../img/check_off.png);position:absolute;top:0;left:0}
+.agree_area input[type="checkbox"]:checked + .check_btn{background:url(../img/check_on.png)}
+.agree_area .btn_area{width:420px;margin:0 auto}
+.agree_area .btn_area input{float:left;width:200px;height:70px;font-size:20px;color:#fff;font-weight:500;font-family:inherit;cursor:pointer}
+.agree_area .btn_area .cancel_btn{margin-right:20px;background:#a2a2a2}
+.join_area{width:1000px;margin:0 auto}
+.join_area .join_title{color:#393939;padding-left:20px;background:url(../img/agree_line.png) no-repeat left center;font-weight:500;line-height:18px;margin-bottom:20px}
+.join_area .join_title span{color:#7f7f7f;font-size:15px;font-weight:300;margin-left:10px}
+.join_area .input_area{margin-bottom:60px}
+.join_area .input_area .area{border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb;padding:15px 0;margin-top:-1px}
+.join_area .input_area .area label{float:left;width:200px;line-height:45px;font-weight:500;color:#202020}
+.join_area .input_area .area input[type="text"]{float:left;width:650px;height:45px;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;color:#393939}
+.join_area .input_area .user_id .id_box{width:530px!important}
+.join_area .input_area .user_id .bg_skyblue{width:110px;height:45px;margin-left:10px;font-family:inherit;color:#fff;letter-spacing:-1px;font-size:16px;cursor:pointer}
+.join_area .input_area .area input[type="password"]{float:left;width:650px;height:45px;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;color:#393939}
+.join_area .input_area .pw p{clear:both;color:#7f7f7f;font-size:14px;margin-left:200px;padding-top:5px}
+.join_area .input_area .mail .mail_box{width:130px!important}
+.join_area .input_area .mail .at{float:left;width:25px;line-height:45px;color:#8e8e8e;text-align:center;font-size:15px}
+.join_area .input_area .mail select{width:130px;height:45px;float:left;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../img/select_bg.png) no-repeat right center;cursor:pointer;margin-left:15px}
+select::-ms-expand{display:none}
+.join_area .input_area .mail .bg_skyblue{width:110px;height:45px;margin-left:10px;font-family:inherit;color:#fff;letter-spacing:-1px;font-size:16px;cursor:pointer}
+.join_area .input_area .agree_label{margin-left:200px;clear:both;padding-top:10px}
+.join_area .input_area .agree_label .check_wrap{width:16px;height:16px;position:relative;margin-right:5px;float:left}
+.join_area .input_area .agree_label input[type="checkbox"]{width:16px;height:16px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2;cursor:pointer}
+.join_area .input_area .agree_label .check_btn{width:16px;height:16px;background:url(../img/check_off.png);position:absolute;top:0;left:0}
+.join_area .input_area .agree_label input[type="checkbox"]:checked + .check_btn{background:url(../img/check_on.png)}
+.join_area .input_area .agree_label label{float:left;font-size:14px;color:#7f7f7f;line-height:16px;cursor:pointer;font-weight:400}
+.join_area .input_area .tell select{width:130px;height:45px;float:left;box-sizing:border-box;border:1px solid #dbdbdb;font-family:inherit;font-size:16px;padding-left:15px;letter-spacing:-1px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(../img/select_bg.png) no-repeat right center;cursor:pointer}
+.join_area .input_area .tell .bar{float:left;width:20px;line-height:45px;color:#8e8e8e;text-align:center}
+.join_area .input_area .tell .tell_box{width:130px!important}
+.join_area .input_area .birth .birth_year{width:135px!important}
+.join_area .input_area .birth .birth_month{width:100px!important}
+.join_area .input_area .birth .birth_day{width:100px!important}
+.join_area .input_area .birth p{float:left;font-size:15px;color:#7f7f7f;line-height:45px;width:25px;text-align:center;margin-right:10px}
+.join_area .input_area .birth .birth_label{margin-top:14px}
+.join_area .input_area .birth .check_wrap{width:16px;height:16px;position:relative;margin-right:5px;float:left}
+.join_area .input_area .birth input[type="checkbox"]{width:16px;height:16px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2;cursor:pointer}
+.join_area .input_area .birth .check_btn{width:16px;height:16px;background:url(../img/check_off.png);position:absolute;top:0;left:0}
+.join_area .input_area .birth input[type="checkbox"]:checked + .check_btn{background:url(../img/check_on.png)}
+.join_area .input_area .birth .birth_label label{float:left;font-size:14px;color:#7f7f7f;line-height:16px;cursor:pointer;font-weight:400}
+.join_area .input_area .auto .auto_img{width:200px;height:80px;float:left;box-sizing:border-box;background-size:cover;background-position:center center}
+.join_area .input_area .auto .auto_word{width:440px!important;margin-left:10px}
+.join_area .input_area .auto p{font-size:14px;color:#7f7f7f;width:440px;float:left;margin-left:20px;margin-top:7px}
+.join_area .input_area .address .address_code{width:200px!important}
+.join_area .input_area .address .bg_skyblue{width:110px;height:45px;margin-left:10px;font-family:inherit;color:#fff;letter-spacing:-1px;font-size:16px;cursor:pointer}
+.join_area .input_area .address .address_box{clear:both;margin-left:200px;margin-top:10px}
+.join_area .input_area .gender .men{float:left;margin-top:14px;margin-right:30px}
+.join_area .input_area .gender .women{float:left;margin-top:14px}
+.join_area .input_area .gender .radio_wrap{width:16px;height:16px;position:relative;float:left;margin-right:10px}
+.join_area .input_area .gender input[type="radio"]{width:16px;height:16px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2;cursor:pointer}
+.join_area .input_area .gender .radio_btn{width:16px;height:16px;background:url(../img/radio_off.png);position:absolute;top:0;left:0}
+.join_area .input_area .gender input[type="radio"]:checked + .radio_btn{background:url(../img/radio_on.png)}
+.join_area .input_area .gender div label{float:left;line-height:16px;cursor:pointer;font-size:16px;color:#393939;font-weight:400;width:auto}
+.join_area .btn_area{width:420px;margin:0 auto}
+.join_area .btn_area input{float:left;width:200px;height:70px;font-size:20px;color:#fff;font-weight:500;font-family:inherit;cursor:pointer}
+.join_area .btn_area .cancel_btn{margin-right:20px;background:#a2a2a2}
+.complete_area h4{font-size:28px;font-weight:300;color:#393939;text-align:center;margin-bottom:20px}
+.complete_area p{text-align:center;color:#6b6b6b;font-weight:300;margin-bottom:100px}
+.complete_area p span{font-weight:400}
+.complete_area .btn_area{width:420px;margin:0 auto}
+.complete_area .btn_area a{float:left;width:200px;height:70px;line-height:70px;font-size:20px;color:#fff;font-weight:500;cursor:pointer;text-align:center}
+.complete_area .btn_area .home_btn{margin-right:20px;background:#a2a2a2}

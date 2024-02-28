@@ -1,0 +1,59 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+.top_img{background-image:url(../img/instructor_img.png)}
+.page_title{background-image:url(../img/instructor_title.png);padding-top:80px}
+.link_tab{margin-bottom:0}
+.link_tab_fake{width:100%;height:50px;display:none}
+article .grid_contents{margin-bottom:100px}
+article .grid_contents .grid{width:500px;height:180px;margin-top:25px;float:left}
+article .grid_contents .grid img{display:block;margin:0 auto;position:relative;top:50%;margin-top:-34px}
+article .grid_contents .grid_textarea{width:640px;float:left;margin-left:60px}
+article .grid_contents .grid_textarea .contents_title{font-size:28px;font-weight:300;margin-bottom:20px}
+article .grid_contents .grid_textarea .contents_title .bold{font-weight:500}
+article .grid_contents .grid_textarea .contents_sub{font-weight:300;font-size:20px}
+article .grid_contents .grid_textarea .contents_sub .skyblue{font-weight:400}
+article .vision .tab_btn{text-align:center;margin:0 auto}
+article .vision .tab_btn .tab_button{float:left;width:400px;height:80px;margin-bottom:40px;box-sizing:border-box;cursor:pointer}
+article .vision .tab_btn .tab_button:nth-child(2),article .vision .tab_btn .tab_button:nth-child(3){margin-left:-1px}
+article .vision .tab_btn .tab_button .title{color:#1c9bb7;font-size:20px;font-weight:400;margin-top:12px;margin-bottom:4px}
+article .vision .tab_btn .tab_button .sub{color:#91d3e2;font-size:14px;font-weight:400}
+article .vision .tab_btn .active{background-color:#1c9bb7}
+article .vision .tab_btn .active p{color:#fff!important}
+article .vision .tab_cont{float:left;box-sizing:border-box;text-align:center;width:1200px;height:436px;border-bottom:1px solid #dbdbdb}
+article .vision .tab_cont #vision_one{margin-top:40px}
+article .vision .tab_cont #vision_two{margin-top:100px}
+article .vision .tab_cont #vision_three .synergy{background-image:url(../img/synergy_bg.png);width:1200px;height:310px}
+article .vision .tab_cont #vision_three .synergy .black{width:400px;height:310px;font-weight:300;font-size:16px;float:left}
+article .vision .tab_cont #vision_three .synergy .black .blue{font-size:18px;font-weight:400;margin-bottom:16px;display:block;margin-top:30px}
+article .vision .tab_cont .title{font-weight:400;margin-bottom:20px}
+article .vision .tab_cont .sub{font-weight:300}
+article .vision h3,article .grade h3,article .license h3{font-weight:400;text-align:center}
+article .grade h3{padding-top:90px}
+article .vision .subtext,article .grade .subtext,article .license .subtext{text-align:center;margin-top:8px;margin-bottom:40px}
+article .grade{margin-bottom:90px;height:690px}
+article .grade .green_club,article .grade .blue_club{width:600px;height:460px;position:relative;top:20px;float:left;box-sizing:border-box}
+article .grade .green_club .border_green,article .grade .blue_club .border_skyblue{width:250px;height:80px;position:relative;margin:-25px auto 0!important;background-color:#fff;text-align:center}
+article .grade .green_club .border_green .green,article .grade .blue_club .border_skyblue .skyblue{margin-top:10px}
+article .grade .green_club .border_green .sub{color:#aed87b;font-size:14px;margin-top:4px}
+article .grade .blue_club .border_skyblue .sub{color:#92cfdb;font-size:14px;margin-top:4px}
+article .grade .green_club .explain,article .grade .blue_club .explain{font-weight:300;font-size:16px;text-align:center;margin-top:20px;margin-bottom:30px}
+article .grade .green_club .process,article .grade .green_club .study,article .grade .green_club .study02,article .grade .blue_club .process,article .grade .blue_club .study,article .grade .blue_club .study02{font-size:16px;font-weight:300;margin-left:30px;float:left}
+article .grade .green_club .button,article .grade .blue_club .button{width:190px;height:50px;display:block;float:right;margin-right:30px;margin-bottom:50px}
+article .grade .green_club .process .green,article .grade .green_club .study .green,article .grade .blue_club .process .skyblue,article .grade .blue_club .study .skyblue{display:block;margin-bottom:5px;font-size:18px;font-weight:400}
+article .grade .green_club .study,article .grade .blue_club .study{clear:both;float:left;width:260px;margin-top:30px;height:130px}
+article .grade .green_club .study02,article .grade .blue_club .study02{width:260px;height:130px;float:left;margin-top:61px}
+article .grade .blue_club{margin-left:-1px}
+article .license{clear:both;padding-top:60px;padding-bottom:90px;box-sizing:border-box}
+article .license ul li{float:left;box-sizing:border-box}
+article .license .center .step01{background-image:url(../img/step01.png);width:340px;height:300px}
+article .license .center .step02{background-image:url(../img/step02.png);width:340px;height:300px}
+article .license .center .step03{background-image:url(../img/step03.png);width:340px;height:300px}
+article .license .center li h5{margin-left:140px;margin-top:20px}
+article .license .center .step01 .sub{margin-top:25px;margin-left:20px;margin-bottom:50px;float:left}
+article .license .center .step01 .time{float:left;margin-left:20px;font-weight:300;width:100%}
+article .license .center .step02 .process_info{float:left;margin-left:20px;font-weight:300;width:100%;margin-top:25px}
+article .license .center .step02 .process_info:nth-child(3){margin-top:15px}
+article .license .center .step02 .process_info .navy{display:block;margin-bottom:5px}
+article .license .center .step03 .time{float:left;margin-left:20px;font-weight:300;width:100%;margin-top:25px}
+article .license .center .step03 .time:nth-child(3),article .license .center .step03 .time:nth-child(4){margin-top:5px}
+footer{margin-top:0!important}

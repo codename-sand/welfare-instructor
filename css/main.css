@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+body{margin:0;padding:0}
+.mainbanner{background-image:url(../img/mainbanner.png);height:460px}
+.width{max-width:1200px;margin:0 auto}
+.menu{margin-top:40px;margin-bottom:60px;height:300px}
+.menu .menuone{width:300px;height:300px;border:1px solid #dbdbdb;background-image:url(../img/menubg01.png);box-sizing:border-box;float:left}
+.menu .menutwo{width:300px;height:300px;border:1px solid #dbdbdb;background-image:url(../img/menubg02.png);box-sizing:border-box;float:left;margin-left:-1px}
+.menu .menuthree{width:300px;height:300px;border:1px solid #dbdbdb;background-image:url(../img/menubg03.png);box-sizing:border-box;float:left;margin-left:-1px}
+.menu .menufour{width:300px;height:300px;border:1px solid #dbdbdb;background-image:url(../img/menubg04.png);box-sizing:border-box;float:left;margin-left:-1px}
+.menu .menu_title{font-weight:400;margin-top:77px;margin-left:20px}
+.menu .menu_text{font-weight:300;margin-left:20px;margin-top:40px}
+.sub_link{height:270px;width:100%;box-sizing:border-box;margin-bottom:60px;display: flex;justify-content:space-around;}
+.sub_link .ewelfare{width:50%;height:270px;background-image:url(../img/welfare_bg.png);}
+.sub_link .consultant{width:50%;height:270px;background-image:url(../img/welfare_bg02.png);}
+.sub_link .ewelfare .textcontents{width:600px;text-align:center;padding-top:50px;box-sizing:border-box;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.sub_link .consultant .textcontents{width:600px;text-align:center;padding-top:50px;box-sizing:border-box;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.sub_link .ewelfare .textcontents .title,.sub_link .consultant .textcontents .title{font-weight:200;margin-bottom:13px}
+.sub_link .ewelfare .textcontents h6,.sub_link .consultant .textcontents h6{font-weight:400;margin-bottom:13px}
+.sub_link .ewelfare .textcontents .subtext,.sub_link .consultant .textcontents .subtext{font-weight:300;margin-bottom:13px}
+.sub_link .ewelfare .textcontents .btn_more,.sub_link .consultant .textcontents .btn_more{display:block;margin-top:30px;width:120px;height:40px;color:#fff;box-sizing:border-box;font-size:12px;font-weight:400;line-height:40px;border:1px solid #fff;background-image:url(../img/btn_bg.png)}
+.sub_link .ewelfare .textcontents .btn_more:hover{background-color:#1c9bb7}
+.sub_link .consultant .textcontents .btn_more:hover{color:#1c9bb7;background-image:url(../img/btn_bg02.png)}
+.live{text-align:center}
+.live .navy{margin-bottom:10px}
+.live .three_live{height:300px;margin-top:30px;margin-bottom:80px}
+.live .three_live .groupnum,.live .three_live .consultantnum{width:400px;height:300px;float:left;box-sizing:border-box}
+.live .three_live .icon{width:55px;height:55px;margin-top:45px;margin-bottom:20px}
+.live .three_live .subtext{font-weight:400;margin-bottom:10px}
+.live .three_live h3{margin-bottom:40px}
+.live .three_live .cardnum{width:400px;height:300px;background-image:url(../img/center_line.png);float:left;box-sizing:border-box}
+.notice_wrap{background-color:#f1f1f5;height: 360px;display: flex;align-items: center;justify-content: center;padding-left: 300px;}
+.board{width:100%;height:360px;display: flex;margin-left: 40px;}
+.board .notice{margin-right: 40px;}
+.board .notice,.board .news{width:348px;height:360px;box-sizing:border-box;}
+.board .notice .title,.board .news .title{font-weight:600;margin-top:40px;float:left}
+.board .notice .more_icon,.board .news .more_icon{margin-top:40px;margin-bottom:20px;margin-left:7px}
+.board .notice .notice_list li,.board .news .news_list li{border-bottom:1px solid #dbdbdb;width:348px;height:44px}
+.board .notice .notice_list span,.board .news .news_list span{font-weight:400;font-size:14px;float:left;width:70px;height:44px;line-height:44px}
+.board .notice .notice_list .listtext,.board .news .news_list .listtext{font-weight:400;font-size:16px;width:210px;height:44px;line-height:44px;float:left}
+.board .notice .notice_list .date,.board .news .news_list .date{font-weight:300;font-size:14px;width:60px;margin-left:3px;height:44px;line-height:44px;float:left}

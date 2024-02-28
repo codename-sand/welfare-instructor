@@ -1,0 +1,38 @@
+@charset "utf-8";
+.top_img{background-image:url(../img/association_img.png)}
+.page_title{background-image:url(../img/accompanied_title.png)}
+h3.category_sub_title{text-align:center;margin-bottom:8px}
+p.category_subTitle{color:#7f7f7f;text-align:center;margin-bottom:40px}
+.grid_contents{margin-bottom:100px}
+.grid_contents .grid{float:left;width:500px;height:180px;background-image:url(../img/grid.png)}
+.grid_contents .grid img{display:block;margin:0 auto;position:relative;top:50%;margin-top:-29px}
+.grid_contents .grid_textarea{width:640px;float:left;margin-left:60px}
+.grid_contents .grid_textarea .contents_title{font-size:28px;font-weight:300;margin-bottom:20px;margin-top:20px}
+.grid_contents .grid_textarea .contents_title .bold{font-weight:500}
+.grid_contents .grid_textarea .contents_sub{font-weight:300;font-size:20px}
+.grid_contents .grid_textarea .contents_sub .skyblue{font-weight:400}
+.greet{padding:50px 0;position:relative;margin-bottom:60px}
+.greet .greet_bg{position:absolute;bottom:0;right:0}
+.greet .greet_bg img{display:block}
+.greet .center h4{font-size:24px;color:#393939;font-weight:300;margin-bottom:30px}
+.greet .center h4 span{color:#202020;font-weight:400}
+.greet .center h6{font-weight:300;color:#393939}
+.organiz{margin-bottom:90px}
+.organization{background:url(../img/accom_organiz_line.png) no-repeat center 70px}
+.organization h6.president{width:300px;line-height:70px;color:#fff;font-weight:500;text-align:center;margin:0 auto 100px}
+.table_area{clear:both;width:1080px;margin:0 auto}
+.table_area table{width:200px;float:left;border-right:1px solid #dbdbdb;border-left:1px solid #dbdbdb;margin-left:20px}
+.table_area table:first-child{margin-left:0}
+.table_area table tr th{font-size:18px;color:#202020;font-weight:600;text-align:center;background:#f8f8f8;width:200px;height:70px;border-top:2px solid #393939;border-bottom:1px solid #dbdbdb;line-height:22px}
+.main_business{padding-top:60px;padding-bottom:90px;margin-bottom:60px}
+.main_business .business{width:1160px;margin:0 auto}
+.main_business .business article{width:340px;float:left;margin-left:70px}
+.main_business .business article:first-child{margin-left:0}
+.main_business .business article img{display:block;margin:0 auto 15px}
+.main_business .business article h4{font-size:24px;font-weight:500;text-align:center;margin-bottom:5px}
+.main_business .business article h5{color:#7f7f7f;text-align:center;margin-bottom:10px}
+.main_business .business article p{font-size:24px;color:#202020;text-align:center;width:100px;line-height:28px;height:30px;margin:0 auto;background:url(../img/line_bg.png)}
+.main_business .business article.lg p{width:160px;background:url(../img/line_bg160.png)}
+.sponsor_logo{width:970px;height:262px;margin:0 auto}
+.sponsor_logo .logo_wrap{width:1000px;height:292px}
+.sponsor_logo .logo_wrap img{float:left;margin-right:30px;margin-bottom:30px}
