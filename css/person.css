@@ -10,7 +10,7 @@ section hr{border-width:1px 0 0;border-bottom:1px solid #dbdbdb;margin:90px auto
 .intro .circle .border_skyblue h6{line-height:18px;margin-top:55px}
 .intro .circle .border_skyblue h3{line-height:32px;margin:7px 0}
 .intro .circle .border_skyblue h4{line-height:22px;font-weight:500}
-.intro .count{width:810px;margin:0 auto}
+.intro .count{width:810px;margin:0 auto;display: flex;}
 .intro .count article{width:270px;float:left;text-align:center}
 .intro .count article h5{color:#202020}
 .intro .count article h5 span{font-size:52px;font-weight:200}
@@ -20,6 +20,7 @@ section hr{border-width:1px 0 0;border-bottom:1px solid #dbdbdb;margin:90px auto
 .intro .count .border:before{width:1px;height:50px;background-color:#dbdbdb;position:absolute;left:0;top:50%;margin-top:-25px;content:''}
 .intro .count .border:after{width:1px;height:50px;background-color:#dbdbdb;position:absolute;right:0;top:50%;margin-top:-25px;content:''}
 .want .circle{width:510px;margin:0 auto 60px}
+.want .circle .two{margin-left: -5px;}
 .want .circle .border_green{width:270px;height:70px;line-height:70px;border-radius:35px;text-align:center;background-color:rgba(133,174,40,0.1);border-style:dashed!important;float:left;box-sizing:border-box}
 .want .circle .border_green:first-child{margin-right:-30px;background-image:url(../img/green_plus.png);background-repeat:no-repeat;background-position:right center}
 .want .circle .border_green h5{color:#202020}

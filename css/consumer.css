@@ -19,6 +19,7 @@ p.category_subTitle{color:#7f7f7f;text-align:center;margin-bottom:40px}
 .work .four article h5{color:#202020;margin-bottom:5px}
 .work .four article p{font-weight:300;color:#7f7f7f}
 .work .circle{width:570px;margin:0 auto 60px}
+.work .circle .two{margin-left: -5px;}
 .work .circle .border_blue{width:300px;height:70px;line-height:70px;border-radius:35px;text-align:center;background-color:rgba(28,155,183,0.1);border-style:dashed!important;float:left;box-sizing:border-box}
 .work .circle .border_blue:first-child{margin-right:-30px;background-image:url(../img/blue_plus.png);background-repeat:no-repeat;background-position:right center}
 .work .circle .border_blue h5{color:#202020}
