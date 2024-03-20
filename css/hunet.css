@@ -28,8 +28,8 @@ p.category_subTitle{color:#7f7f7f;text-align:center;margin-bottom:40px}
 .card .card_user div.border_blue{width:370px;height:70px;float:right;margin-top:90px;margin-right:150px;text-align:center;line-height:69px}
 .process{padding-top:60px;padding-bottom:90px;margin-bottom:100px}
 article .process{clear:both;padding-top:60px;padding-bottom:90px;box-sizing:border-box}
-article .process ul li{float:left;box-sizing:border-box}
-article .process .center .step01,article .process .center .step02,article .process .center .step03,article .process .center .step04,article .process .center .step05,article .process .center .step06{width:340px;height:144px;margin-bottom:40px}
+/* article .process ul li{float:left;box-sizing:border-box} */
+article .process .center .step01,article .process .center .step02,article .process .center .step03,article .process .center .step04,article .process .center .step05,article .process .center .step06{width:320px;height:144px;margin-bottom:40px;background-position: right center;}
 article .process .center .step01{background-image:url(../img/hunet_step01.png)}
 article .process .center .step02{background-image:url(../img/hunet_step02.png)}
 article .process .center .step03{background-image:url(../img/hunet_step03.png)}
